@@ -1,0 +1,4 @@
+UserName=dcole@fullsail.edu
+UserOrgs={"100035867"\:{"org_id"\:100035867,"name"\:"dcolefullsailedu","_id"\:"556d0444844bc1c762e0c9e1","guid"\:"d61695d4-db0b-406c-9af7-c160e1576790","user_count"\:1,"current_users_role"\:"admin","is_node_acs_admin"\:true,"created"\:"2015-06-02T01\:17\:56.780Z","reseller"\:false,"active"\:true,"package"\:"free","envs"\:[{"_id"\:"production","name"\:"production","isProduction"\:true,"acsBaseUrl"\:"https\://api.cloud.appcelerator.com","acsAuthBaseUrl"\:"https\://secure-identity.cloud.appcelerator.com","nodeACSEndpoint"\:"https\://admin.cloudapp-enterprise.appcelerator.com"},{"_id"\:"development","name"\:"development","isProduction"\:false,"acsBaseUrl"\:"https\://api.cloud.appcelerator.com","acsAuthBaseUrl"\:"https\://secure-identity.cloud.appcelerator.com","nodeACSEndpoint"\:"https\://admin.cloudapp-enterprise.appcelerator.com"}]}}
+eclipse.preferences.version=1
+previousDashboardEndpoint=https\://platform.appcelerator.com
