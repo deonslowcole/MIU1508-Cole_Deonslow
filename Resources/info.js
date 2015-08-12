@@ -12,7 +12,7 @@ var infoPage = function(){
 			{quest: "Why are you in the Mobile Development Program?", ans: "To learn about a new and emerging industry in order to use my connections to build an app that can used by the masses."},
 			{quest: "How comfortable are you with Javascript?", ans: "I'm very comfortable with Java. I just have to remember to do the little things so that it will not throw my entire page off."},
 			{quest: "How comfortable are you with Appcelerator?", ans: "I'm getting use to Appcelerator. I like it a lot. It's a SDK that's very useful for developing since it is able to build everything for iOS, andriod and mobile web."},
-			{quest: "Do you have any pets?", ans: "I have two dogs. A super playful and loveable Pitbull along with a super laid back Cockapoo."},
+			{quest: "Do you have any pets?", ans: "I have two dogs. A super playful and loveable Pitbull along with a laid back Cockapoo."},
 			{quest: "What's your favorite Movie?", ans: "A Christmas Story"},
 			{quest: "What's your sport?", ans: "Baseball"},
 			{quest: "What's a little known fact?", ans: "I won a trophy drag racing Mustang Cobras."},
@@ -56,11 +56,11 @@ var infoPage = function(){
 		footerView: infoFooter,
 	});
 	
-	//declare a function to open the answer page.
+	//declare a function to open the answer page. Set a title attribute to that title will fit in navigation window.
 	var myAnsw = function(bioSource){
 		var ansWindow = Ti.UI.createWindow({
 			title: bioSource.title,
-			font: {fontSize: 12}
+			titleAttributes: {font: {fontSize: 13}}
 		});
 		
 		//declare a variable for a view on the answer page.
@@ -83,7 +83,7 @@ var infoPage = function(){
 		//add text to the view and add the view to the window.
 		infoView.add(infoText);
 		ansWindow.add(infoView);
-		
+		//open navigation window
 		navWindow.openWindow(ansWindow);
 		
 	};
