@@ -88,7 +88,7 @@ var infoPage = function(){
 		
 	};
 	
-	//declare a for loop for array
+	//declare a for loop for array.
 	for(var i=0, j=myInfo.length; i<j; i++){
 		var infoRow = Ti.UI.createTableViewRow({
 			title: myInfo[i].quest,
@@ -99,13 +99,13 @@ var infoPage = function(){
 		infoSection.add(infoRow);	
 	}
 	
-	//declare a variable to hold the section as an array
+	//declare a variable to hold the section as an array.
 	var theInfoSection = [infoSection];
 	
-	//set the variable from the created array section to the table view. Data only accepts array types 
+	//set the variable from the created array section to the table view. Data only accepts array types. 
 	infoTable.setData(theInfoSection);
 	
-	//set an event listener for event propagation to cut down on the amount of event listeners
+	//set an event listener for event propagation to cut down on the amount of event listeners.
 	infoTable.addEventListener("click", function(event){
 		myAnsw(event.source);
 	});
